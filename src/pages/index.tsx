@@ -10,9 +10,9 @@ export default function Index() {
       <BasicMeta url={"/"} />
       <OpenGraphMeta url={"/"} />
       <TwitterCardMeta url={"/"} />
-      <div className="container">
+      <div className="container bg-black h-full">
         <div>
-          <h1>
+          <h1 className="text-3xl text-green-500">
             Hi, We're Next.js & Netlify<span className="fancy">.</span>
           </h1>
           <span className="handle">@nextjs-netlify-blog</span>
